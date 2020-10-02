@@ -1,0 +1,25 @@
+{
+  "name": "basic_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haz-git/nodeJS_basic_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haz-git/nodeJS_basic_blog/issues"
+  },
+  "homepage": "https://github.com/Haz-git/nodeJS_basic_blog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
