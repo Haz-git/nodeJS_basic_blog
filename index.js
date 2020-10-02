@@ -8,6 +8,11 @@ const landingPage = fs.readFileSync(`${__dirname}/templates/landing.html`,'utf-8
 const blogPage = fs.readFileSync(`${__dirname}/templates/blog.html`,'utf-8');
 const blogList = fs.readFileSync(`${__dirname}/templates/blogList.html`,'utf-8');
 
+//Extracting JSON data async:
+
+const data = fs.readFileSync(`${__dirname}/json-data/data.json`,'utf-8');
+const dataObjs = JSON.parse(data);
+
 //Creating the Server
 
 const server = http.createServer((req, res) => {
