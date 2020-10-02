@@ -37,12 +37,7 @@ const server = http.createServer((req, res) => {
         });
 
         res.end(landingPage);
-    } else if (pathname === '/blog') {
-        res.writeHead(200, {
-            'Content-type': 'text/html'
-        })
-
-        res.end(blogPage);
+        
     } else if (pathname === '/bloglist') {
 
         res.writeHead(200, {
